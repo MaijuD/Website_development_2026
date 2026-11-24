@@ -87,9 +87,10 @@ input[type="submit"]:hover {
   background-color: #f75576;
   color: #ffffff;
   padding: 10px 20px;
+  margin-right: 16px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 1s ease;
 }
 
 .transition-button:hover {
