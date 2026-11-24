@@ -7,8 +7,15 @@
   <body>
     <h1>Maiju Degerman</h1>
     <p>I am a graphic designer currently learning web development.</p>
-    <img src="maiju.jpg" alt="Kuva Maijusta" width="300" height="300" />
 
+    <img
+      src="maiju.jpg"
+      alt="Kuva Maijusta"
+      width="300"
+      height="300"
+      class="filter-image"
+    />
+    <blockquote class="quote">This is a sample quote.</blockquote>
     <div class="content-box">
       <h2>Hobbies</h2>
       <p>Here is a list of my hobbies:</p>
@@ -19,8 +26,9 @@
       </ul>
     </div>
 
-    <a href="https://www.youtube.com">Visit YouTube</a>
-
+    <a class="transition-button" href="https://www.youtube.com"
+      >Visit YouTube</a
+    >
     <h2>Table of favorites:</h2>
 
     <table border="1">
@@ -35,7 +43,12 @@
         <td>The Clash</td>
       </tr>
     </table>
-
+    <ul class="pseudo-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
     <h2>Form:</h2>
 
     <form>
@@ -45,5 +58,7 @@
       <input type="email" id="email" name="email" /><br /><br />
       <input type="submit" value="Submit" />
     </form>
+
+    <div class="animation-box"></div>
   </body>
 </html>
